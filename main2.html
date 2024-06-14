@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img_logo/favicon.jpg">
-    <link rel="icon" href="img_logo/favicon.jpg">
     <link rel="stylesheet" href="./top_style.css">
     <link rel="stylesheet" href="./main_style.css">
-    <title>DSU_Shop</title>
+    <title>Document</title>
 
     <link href="//fonts.googleapis.com/css?family=Roboto:400,500,700%7CRoboto+Condensed:400,700%7COswald:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
 
+    <script>
+        function share() {
+            var url = encodeURI(encodeURIComponent(myform.url.value));
+            var title = encodeURI(myform.title.value);
+            var shareURL = "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
+            document.location = shareURL;
+        }
+    </script>
 </head>
 <body>
     <div id="warp">
@@ -29,6 +35,7 @@
                         </div>
 
                         <div class="top_border">
+                            <a class="first">커뮤니티</a><div class="dash"></div>
                             <a>고객센터</a><div class="dash"></div>
                             
                             <div class="snsArea">
@@ -59,7 +66,7 @@
                 </div>
                 <div class="top_logoArea">
                     <div class="top_logo">
-                        <a href="index.html">
+                        <a href="/main.html">
                             <img src="/img_logo/DSU_simbol.png" alt="메인페이지">
                         </a>
                     </div>
@@ -74,40 +81,40 @@
                                     <div class="all_menu_wrap">
                                         <ul class="all_category">
                                             <li class="allmenu_01">
-                                                <a href="/category_1.html">OUTER</a>
+                                                <a href="">OUTER</a>
                                                 <ul>
-                                                    <li class="allmenu_02 li1" onclick="storeClass(this)"><a href="/category_1.html">자켓/점퍼</a></li>
-                                                    <li class="allmenu_02 li2" onclick="storeClass(this)"><a href="/category_1.html">가디건</a></li>
-                                                    <li class="allmenu_02 li3" onclick="storeClass(this)"><a href="/category_1.html">코트</a></li>
-                                                    <li class="allmenu_02 li4" onclick="storeClass(this)"><a href="/category_1.html">조끼</a></li>
-                                                    <li class="allmenu_02 li5" onclick="storeClass(this)"><a href="/category_1.html">수트</a></li>
+                                                    <li class="allmenu_02"><a href="">자켓/점퍼</a></li>
+                                                    <li class="allmenu_02"><a href="">가디건</a></li>
+                                                    <li class="allmenu_02"><a href="">코트</a></li>
+                                                    <li class="allmenu_02"><a href="">조끼</a></li>
+                                                    <li class="allmenu_02"><a href="">수트</a></li>
                                                 </ul>
                                             </li>
                                             <li class="allmenu_01">
-                                                <a href="/category_2.html">TOP</a>
+                                                <a href="">TOP</a>
                                                 <ul>
-                                                    <li class="allmenu_02 li1" onclick="storeClass(this)"><a href="/category_2.html">긴팔</a></li>
-                                                    <li class="allmenu_02 li2" onclick="storeClass(this)"><a href="/category_2.html">반팔</a></li>
+                                                    <li class="allmenu_02"><a href="">긴팔</a></li>
+                                                    <li class="allmenu_02"><a href="">반팔</a></li>
                                                 </ul>
                                             </li>
                                             <li class="allmenu_01">
-                                                <a href="/category_3.html">SHIRTS</a>
+                                                <a href="">SHIRTS</a>
 
                                             </li>
                                             <li class="allmenu_01">
-                                                <a href="/category_4.html">BOTTOM</a>
+                                                <a href="">BOTTOM</a>
                                                 <ul>
-                                                    <li class="allmenu_02 li1" onclick="storeClass(this)"><a href="/category_4.html">면바지</a></li>
-                                                    <li class="allmenu_02 li2" onclick="storeClass(this)"><a href="/category_4.html">데님</a></li>
-                                                    <li class="allmenu_02 li3" onclick="storeClass(this)"><a href="/category_4.html">슬렉스</a></li>
-                                                    <li class="allmenu_02 li4" onclick="storeClass(this)"><a href="/category_4.html">반바지</a></li>
+                                                    <li class="allmenu_02"><a href="">면바지</a></li>
+                                                    <li class="allmenu_02"><a href="">데님</a></li>
+                                                    <li class="allmenu_02"><a href="">슬렉스</a></li>
+                                                    <li class="allmenu_02"><a href="">반바지</a></li>
                                                 </ul>
                                             </li>
                                             <li class="allmenu_01">
-                                                <a href="/category_5.html">ACC</a>
+                                                <a href="">ACC</a>
                                             </li>
                                             <li class="allmenu_01">
-                                                <a href="/category_6.html">SHOES</a>
+                                                <a href="">SHOES</a>
                                             </li>
                                             
                                         </ul>
@@ -116,12 +123,12 @@
                                 </div>
                                 <div class="menu_cell">
                                     <div class="list_inner">
-                                        <div class="list_menu"><a href="/category_1.html">OUTHER</a></div>
-                                        <div class="list_menu"><a href="/category_2.html">TOP</a></div>
-                                        <div class="list_menu"><a href="/category_3.html">SHIRTS</a></div>
-                                        <div class="list_menu"><a href="/category_4.html">BOTTOM</a></div>
-                                        <div class="list_menu"><a href="/category_5.html">ACC</a></div>
-                                        <div class="list_menu"><a href="/category_6.html">SHOES</a></div>
+                                        <div class="list_menu"><a href="category_1.html">OUTHER</a></div>
+                                        <div class="list_menu"><a href="">TOP</a></div>
+                                        <div class="list_menu"><a href="">SHIRTS</a></div>
+                                        <div class="list_menu"><a href="">BOTTOM</a></div>
+                                        <div class="list_menu"><a href="">ACC</a></div>
+                                        <div class="list_menu"><a href="">SHOES</a></div>
 
                                 </div>
                                     </div>
@@ -131,7 +138,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="img_box">
                     <ul class="bx-pager-item">
                         <li>
@@ -166,12 +172,15 @@
                                 <div class="box">
                                     <div class="prdselect">
                                         <div class="prdImg_img">
-                                            <img src="img/SHIRTS/1.png" alt="빈티지 링클 체크셔츠">
-                                            <div class="overlay"></div>
+                                            <img src="//maninstore.co.kr/web/product/small/202406/611ade52e3bff59186d2e3593dd0115c.jpg" id="eListPrdImage3342_3" alt="빈티지 링클 체크셔츠">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
                                         </div>
                                         <div class="item_name">
                                             <div>빈티지 링클 체크셔츠</div>
                                             <div class="price">₩32,000</div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -180,8 +189,10 @@
                                 <div class="box">
                                     <div class="prdselect">
                                         <div class="prdImg_img">
-                                            <img src="img/BOTTOM/1.png" alt="꼭꼭팬츠 구김zero 와이드핏 긴바지">
-                                            <div class="overlay"></div>
+                                            <img src="//www.bymono.com/web/product/big/202406/e69b95c209984dbab2a5147744955aa1.jpg" id="eListPrdImage3342_3" alt="꼭꼭팬츠 구김zero 와이드핏 긴바지">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
                                         </div>
                                         <div class="item_name">
                                             <div>꼭꼭팬츠 구김zero 와이드핏 긴바지</div>
@@ -194,25 +205,13 @@
                                 <div class="box">
                                     <div class="prdselect">
                                         <div class="prdImg_img">
-                                            <img src="/img/BOTTOM/0.png" alt="스냅 카고 버뮤다 데님">
-                                            <div class="overlay"></div>
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/medium/202406/c08c2e4e5f1cb529efb28481684f53f5.jpg" id="eListPrdImage3342_3" alt="나탈리 빈티지 체크 캡 (2color)">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
                                         </div>
                                         <div class="item_name">
-                                            <div>스냅 카고 버뮤다 데님</div>
-                                            <div class="price">₩51,000</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
-                                <div class="box">
-                                    <div class="prdselect">
-                                        <div class="prdImg_img">
-                                            <img src="img/ACC/0.jpg" alt="나탈리 빈티지 체크 캡">
-                                            <div class="overlay"></div>
-                                        </div>
-                                        <div class="item_name">
-                                            <div>나탈리 빈티지 체크 캡</div>
+                                            <div>나탈리 빈티지 체크 캡 (2color)</div>
                                             <div class="price">₩21,000</div>
                                         </div>
                                     </div>
@@ -222,13 +221,14 @@
                                 <div class="box">
                                     <div class="prdselect">
                                         <div class="prdImg_img">
-                                            <img src="/img/SHIRTS/0.png" alt="스테이 원 포켓 하프 셔츠">
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/medium/202406/e400113172dfa6595ca43ccf86d18202.gif" id="eListPrdImage3342_3" alt="스냅 카고 버뮤다 데님 (2color)">
                                             <div class="overlay">
+                                                <p>구매하기</p>
                                             </div>
                                         </div>
                                         <div class="item_name">
-                                            <div>스테이 원 포켓 하프 셔츠</div>
-                                            <div class="price">₩38,000</div>
+                                            <div>스냅 카고 버뮤다 데님 (2color)</div>
+                                            <div class="price">₩51,000</div>
                                         </div>
                                     </div>
                                 </div>
@@ -237,12 +237,14 @@
                                 <div class="box">
                                     <div class="prdselect">
                                         <div class="prdImg_img">
-                                            <img src="img/TOP/0.png" alt="스카시 부클 라운드 반팔니트">
-                                            <div class="overlay"></div>
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/big/202406/3758ee97bbce7d32a8ca6e2e1a849ef9.webp" id="eListPrdImage3342_3" alt="스테이 원 포켓 하프 셔츠 (4color)">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
                                         </div>
                                         <div class="item_name">
-                                            <div>스카시 부클 라운드 반팔니트</div>
-                                            <div class="price">₩32,000</div>
+                                            <div>스테이 원 포켓 하프 셔츠 (4color)</div>
+                                            <div class="price">₩38,000</div>
                                         </div>
                                     </div>
                                 </div>
@@ -256,12 +258,8 @@
             </div>
         </div>
     </div>
-
+    
     <script>
-            window.onload = function() {
-            sessionStorage.setItem('storedClass', 'al');
-        };
-
     // 마우스가 올라갈 요소를 선택
         const elements = document.querySelectorAll('.all_menu_wrap, .cate_all_ico');
         const listItems = document.querySelectorAll('li.allmenu_02');
@@ -278,12 +276,12 @@
 
         // 각 리스트 요소에 대해 'mouseover'와 'mouseout' 이벤트 리스너를 추가
         listItems.forEach(function(item) {
-          item.addEventListener('mouseover', function() {
+            item.addEventListener('mouseover', function() {
             this.classList.add('on');
-          });
-          item.addEventListener('mouseout', function() {
+            });
+            item.addEventListener('mouseout', function() {
             this.classList.remove('on');
-          });
+            });
         });
 
     // 이미지 슬라이드
@@ -309,7 +307,7 @@
         // 첫 번째 슬라이드를 제외하고 모든 슬라이드를 초기에 숨기기
         for (var i = 1; i < slides.length; i++) {
         slides[i].style.display = 'none';
-        }
+        } 
 
     // 페이저를 생성
         for (var i = 0; i < slides.length; i++) {
@@ -334,14 +332,7 @@
 
         pager.children[0].classList.add('active');
 
-        function storeClass(element) {
-    // 클래스 이름을 세션 스토리지에 저장 [문자열]
-        element.classList.remove('on');
-        element.classList.remove('allmenu_02');   
-        sessionStorage.setItem('storedClass', element.className);
-        }
-
-     //이미지 정보 보내기
+        //이미지 정보 보내기
         function redirectToNewPage(src, alt) {
         // 이미지 소스와 alt 값을 세션 스토리지에 저장
         sessionStorage.setItem('imgSrc', src);
@@ -349,7 +340,7 @@
         // 새 페이지로 리다이렉트
         window.location.href = 'detail.html';
         }
-
+        
     </script>
 
 </body>
