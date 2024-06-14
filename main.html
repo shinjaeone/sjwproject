@@ -9,8 +9,15 @@
 
     <link href="//fonts.googleapis.com/css?family=Roboto:400,500,700%7CRoboto+Condensed:400,700%7COswald:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
-    
 
+    <script>
+        function share() {
+            var url = encodeURI(encodeURIComponent(myform.url.value));
+            var title = encodeURI(myform.title.value);
+            var shareURL = "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
+            document.location = shareURL;
+        }
+    </script>
 </head>
 <body>
     <div id="warp">
@@ -173,6 +180,7 @@
                                         <div class="item_name">
                                             <div>빈티지 링클 체크셔츠</div>
                                             <div class="price">₩32,000</div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -268,12 +276,12 @@
 
         // 각 리스트 요소에 대해 'mouseover'와 'mouseout' 이벤트 리스너를 추가
         listItems.forEach(function(item) {
-          item.addEventListener('mouseover', function() {
+            item.addEventListener('mouseover', function() {
             this.classList.add('on');
-          });
-          item.addEventListener('mouseout', function() {
+            });
+            item.addEventListener('mouseout', function() {
             this.classList.remove('on');
-          });
+            });
         });
 
     // 이미지 슬라이드
@@ -332,7 +340,7 @@
         // 새 페이지로 리다이렉트
         window.location.href = 'detail.html';
         }
-
+        
     </script>
 
 </body>
